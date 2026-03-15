@@ -67,6 +67,27 @@ const apps = [
     status: 'Live',
   },
   {
+    name: 'ClinDeck',
+    tagline: 'Clinical Dashboard.',
+    description: 'Dashboard for clinical organization and workflow management.',
+    url: 'https://clindeck.imteched.com',
+    color: 'from-green-500 to-teal-600',
+    accent: 'text-green-400',
+    accentBg: 'bg-green-500/10 border-green-500/20',
+    cardBg: 'bg-green-500/[0.04]',
+    cardBorder: 'border-green-500/15 hover:border-green-500/30',
+    lightCardBg: 'bg-green-50',
+    lightCardBorder: 'border-green-200/60 hover:border-green-300',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path d="M19 4H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z" />
+        <path d="M3 6h18M3 12h18" />
+      </svg>
+    ),
+    pills: ['Workflow Management', 'Documentation Efficiency', 'Clinical Organization'],
+    status: 'Live',
+  },
+  {
     name: 'QuickNote',
     tagline: 'Consult notes in seconds.',
     description: 'Smart templates for common consult types. Fill in key fields and generate formatted, copy-ready notes instantly.',
